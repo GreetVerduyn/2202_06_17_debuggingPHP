@@ -12,18 +12,42 @@ know what to do the next time you're stuck
 give yourself the solver's mentality, a problem is just an opportunity to learn!
 The Mission
 Debugging is the pinpoint to being a master in any coding language.
-Everyone gets errors, but the best programmers never let it stop them and they find a way to fix it every time! I scoured the internet for a debugging guide, that I felt like I could get behind and here it is: The guide
+Everyone gets errors, but the best programmers never let it stop them and
+they find a way to fix it every time! I scoured the internet for a debugging guide,
+that I felt like I could get behind and here it is: The guide
 
-This is what I feel like doing when coding PHP that doesn't mean that this should be your way. Discover, look up, research whatever ways work for you to debug you code!
+This is what I feel like doing when coding PHP that doesn't mean that this should be your way.
+Discover, look up, research whatever ways work for you to debug you code!
 
 I very much encourage you to use xDebug as much as possible!
 
 Must-have features
-Open up the junior.php.broken file, read the comments, fix the code blocks as requested in the comments and put the final file expert.php in the repository folder as requested.
+Open up the junior.php.broken file, read the comments, fix the code blocks as
+requested in the comments and put the final file expert.php in the repository folder as requested.
 
 You will change this junior code in expert code!
 
-# TO DO
-- [] find explenation Xdebug on youtube
-- [] first excercise
+## TO DO
+- [x] find explanation Xdebug on YouTube
+- [x] exercise 1: initialize x in the function
+- [x] exercise 2: array starts at [0]
+- [x] exercise 3: debug could not start because of wrong "".
+- [x] exercise 4: missing & in foreach, this code is not recommended to use.
+If you use it ,you may not forget to unset the reference
+(https://coderwall.com/p/qx3fpa/php-foreach-pass-by-reference-do-it-right-or-better-not-at-all)
+- [x] exercise 5: the for loops keeps on going, also when only '< z' -> I adapted the length
+- [x] exercise 6:
+1. missing & in foreach (function combineNames)
+2. the length of the array is 11 but the counting starts at 0 -> count -1
+3. implode function first separator, then array (implode(separator, $array))
+https://www.c-sharpcorner.com/UploadFile/051e29/implode-and-explode-function-in-php/#:~:text=The%20implode%20function%20in%20PHP,the%20pieces)%20of%20your%20choice.
+4. randomHeroName and combineNames (echo) don't return something -> change echo into return
+- [x] exercise 7: copyright(): Argument #1 ($year) must be of type int, string given -> deleted int in function,
+echo replaced by print_r
+-´[x]exercise 8:
+1. return is the end of a function, 2 x return is not possible
+2. the name AND the password needs te be correct -> change or (||) into and (&&).
+
+
+
 
