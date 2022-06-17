@@ -18,7 +18,7 @@ function new_exercise($x) {
 
 new_exercise(2);
 
-/*
+
 // === Exercise 2 ===
 // Below we create a week array with all days of the week.
 // We then try to print the first day which is monday, execute the code and see what happens.
@@ -28,7 +28,7 @@ $week = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "su
 $monday = $week[0];
 
 echo $monday;
-*/
+
 
 
 new_exercise(3);
@@ -43,7 +43,23 @@ echo substr($str, 0, 10);
 
 
 new_exercise(4);
+// === Exercise 4 ===
+// Sometimes debugging code is just like looking up code and syntax...
+// The print_r($week) should give:  Array ( [0] => mon [1] => tues [2] => wednes [3] => thurs [4] => fri [5] => satur [6] => sun )
+// Look up whats going wrong with this code, and then fix it, with ONE CHARACTER!
 
+// https://coderwall.com/p/qx3fpa/php-foreach-pass-by-reference-do-it-right-or-better-not-at-all
+
+foreach($week as &$day) {
+    $day = substr($day, 0, strlen($day)-3);
+}
+
+print_r($week);
+
+
+
+
+new_exercise(5);
 
 
 
