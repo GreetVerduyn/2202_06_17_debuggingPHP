@@ -7,7 +7,7 @@ declare(strict_types=1);
 // Look at the error you get, read it and it should tell you the issue...,
 // sometimes, even your IDE can tell you what's wrong
 // $x not initialised
-/*
+
 echo "Exercise 1 starts here:";
 
 function new_exercise($x) {
@@ -18,7 +18,7 @@ function new_exercise($x) {
 
 new_exercise(2);
 
-*/
+/*
 // === Exercise 2 ===
 // Below we create a week array with all days of the week.
 // We then try to print the first day which is monday, execute the code and see what happens.
@@ -28,8 +28,21 @@ $week = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "su
 $monday = $week[0];
 
 echo $monday;
+*/
 
 
+new_exercise(3);
+// === Exercise 3 ===
+// This should echo ` "Debugged !" `, fix it so that that is the literal text echo
+// debug could not be started
+
+$str = "Debugged ! Also very fun";
+echo substr($str, 0, 10);
+
+
+
+
+new_exercise(4);
 
 
 
