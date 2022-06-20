@@ -47,7 +47,12 @@ echo replaced by print_r
 -´[x]exercise 8:
 1. return is the end of a function, 2 x return is not possible
 2. the name AND the password needs te be correct -> change or (||) into and (&&).
-
+- [x]exercise 9:
+1. strpos() returns FALSE if the token was not found and the (first) position of the token in string if it was found.
+You need to check for boolean FALSE using the strict comparison operator === to identify if a token was found in a string or not
+2. To show the result, add echo before calling the function.
+- [x]exercise 10:
+* unset changes the count of the array -> put number out of the function
 
 
 
